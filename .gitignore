@@ -1,0 +1,5 @@
+build
+dist
+BarCodeReader.spec
+.DS_Store
+.venv
