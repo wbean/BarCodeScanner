@@ -17,11 +17,15 @@ brew install zbar
 
 ## Installation
 
-You have two options for installation:
+# MacOS
+1. Run with python
+```
+python3 main.py
+```
 
-1. Download the pre-compiled app from the [releases page](insert_link_here).
+2. Download the pre-compiled app from the [releases page](insert_link_here).
 
-2. Compile the app yourself:
+3. Compile the app yourself:
 
     a. Install Python dependencies:
     ```
@@ -54,14 +58,24 @@ You have two options for installation:
 
     e. Find the compiled application in the `dist` directory.
 
+# Linux/Unix
+1. Run with python
+```
+python3 main.py
+```
+
+2. Package with pyinstaller
+```
+pyinstaller --onefile main.py
+```
+
 ## Usage
 
-[Add instructions on how to use the application here]
+1. Press 'q' to exit
+2. Press 'Space' or 'Enter' continue, start a new scan process.
 
 ## Contributing
 
-[Add information about how others can contribute to the project]
 
 ## License
 
-[Specify the license under which this project is released]
